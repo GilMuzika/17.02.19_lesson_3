@@ -19,6 +19,11 @@ namespace _19._02._19_lesson_3
             if (a > b) { Console.WriteLine(a); }
             else { Console.WriteLine(b); }
 
+            string ln = Console.ReadLine();
+
+            foreach (string spltln in ln.Split(' ')) { Console.WriteLine(spltln); }
+
+
 
 
         }
